@@ -96,7 +96,7 @@ import sharedMessages from '../../lib/shared-messages';
 const ariaMessages = defineMessages({
     tutorials: {
         id: 'gui.menuBar.tutorialsLibrary',
-        defaultMessage: 'Tutorials',
+        defaultMessage: 'Contribute',
         description: 'accessibility text for the tutorials button'
     }
 });
@@ -681,13 +681,14 @@ class MenuBar extends React.Component {
                             aria-label={this.props.intl.formatMessage(ariaMessages.tutorials)}
                             className={classNames(styles.menuBarItem, styles.hoverable)}
                             onClick={this.props.onOpenTipLibrary}
+                            title='Contribute to the Snazzle editor on GitHub'
                         >
                             <img
                                 className={styles.helpIcon}
                                 src={helpIcon}
                             />
                             <span className={styles.tutorialsLabel}>
-                                <FormattedMessage {...ariaMessages.tutorials} />
+                                Contribute
                             </span>
                         </div>
                     </div>
@@ -951,7 +952,7 @@ const mapStateToProps = (state, ownProps) => {
 
 const mapDispatchToProps = dispatch => ({
     autoUpdateProject: () => dispatch(autoUpdateProject()),
-    onOpenTipLibrary: () => dispatch(openTipsLibrary()),
+    onOpenTipLibrary: () => location = 'https://github.com/Elip100/scratch-gui',
     onClickAccount: () => dispatch(openAccountMenu()),
     onRequestCloseAccount: () => dispatch(closeAccountMenu()),
     onClickFile: () => dispatch(openFileMenu()),
