@@ -25,6 +25,11 @@ const messages = defineMessages({
         defaultMessage: 'We\'re working on it {emoji}',
         description: 'One of the "coming soon" random messages for yet-to-be-done features',
         id: 'gui.comingSoon.message3'
+    },
+    message4: {
+        defaultMessage: 'Help us out by contributing on Github {emoji}',
+        description: 'One of the "coming soon" random messages for yet-to-be-done features',
+        id: 'gui.comingSoon.message4'
     }
 });
 
