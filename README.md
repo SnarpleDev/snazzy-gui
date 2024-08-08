@@ -6,7 +6,7 @@ To open the current build in your browser on Github Pages:
 
 https://elip100.github.io/scratch-gui/
 
-## Contributing
+## Contributing (please read)
 1. Fork ___ALL BRANCHES___ of the repo
 2. Make changes to the `develop` branch
 3. Create a build ([instructions here](#creating-a-build))
