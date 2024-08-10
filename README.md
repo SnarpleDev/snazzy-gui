@@ -4,7 +4,7 @@ This repo is a copy of Scratch's editor modified for Snazzle
 
 To open the current build in your browser on Github Pages:
 
-https://elip100.github.io/scratch-gui/
+https://SnarpleDev.github.io/snazzy-gui/
 
 ## Contributing (please read)
 1. Fork ___ALL BRANCHES___ of the repo
